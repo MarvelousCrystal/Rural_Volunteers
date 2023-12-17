@@ -1,0 +1,84 @@
+{
+    "pages": [
+        "pages/tabBar/home/home",
+        "pages/tabBar/me/me",
+        "pages/before/navigator/index/index",
+        "pages/before/navigator/filter/index",
+        "pages/before/about/index",
+        "pages/before/navigator/content/index",
+        "pages/subPages/swipers/swiper1/swiper1",
+        "pages/subPages/swipers/swiper2/swiper2",
+        "pages/subPages/swipers/swiper3/swiper3",
+        "pages/subPages/navs/release_activity/release_activity",
+        "pages/subPages/navs/register/register",
+        "pages/subPages/more/more",
+        "pages/subPages/top_nav/addr/addr",
+        "pages/subPages/top_nav/search/search",
+        "pages/subPages/top_nav/message/message",
+        "pages/subPages/allMy/myVolunteer/myVolunteer",
+        "pages/subPages/allMy/examine/examine",
+        "pages/subPages/allMy/basicInformation/basicInformation",
+        "pages/subPages/allMy/identify/identify",
+        "pages/subPages/allMy/aboutUs/aboutUs",
+        "pages/subPages/allMy/setting/setting",
+        "pages/subPages/test_tabs/index",
+        "pages/subPages/allMy/myLevel/myLevel",
+        "pages/subPages/allMy/myGrade/myGrade",
+        "pages/subPages/allMy/mySign/mySign",
+        "pages/subPages/allMy/setting_manage/setting_manage",
+        "pages/subPages/allMy/setting_version/setting_version",
+        "pages/test/test"
+    ],
+    "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息计算距离排序" 
+        }
+      },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "乡村微志愿",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "custom": false,
+        "color": "#bbbbbb",
+        "selectedColor": "#3963BC",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/tabBar/home/home",
+                "text": "首页",
+                "iconPath": "/images/tabbar/base.png",
+                "selectedIconPath": "/images/tabbar/base-select.png"
+            },
+            {
+                "pagePath": "pages/tabBar/me/me",
+                "text": "我的",
+                "iconPath": "/images/tabbar/team.png",
+                "selectedIconPath": "/images/tabbar/team-select.png"
+            }
+        ]
+    },
+    "subPackages": [
+       
+    ],
+    "usingComponents": {
+        "l-toast": "/dist/toast/index",
+        "l-message": "/dist/message/index",
+        "l-button": "/dist/button/index",
+        "content-title": "/components/content-title/index",
+        "content-card": "/components/content-card/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-picker": "@vant/weapp/picker/index",
+        "van-popup": "@vant/weapp/popup/index",
+        "van-datetime-picker": "@vant/weapp/datetime-picker/index",
+        "van-field": "@vant/weapp/field/index",
+        "van-empty": "@vant/weapp/empty/index",
+        "van-tag": "@vant/weapp/tag/index",
+        "van-cell": "@vant/weapp/cell/index",
+        "van-cell-group": "@vant/weapp/cell-group/index"
+    },
+    "sitemapLocation": "sitemap.json"
+}
